@@ -1,15 +1,25 @@
-.fullscreen-image {
-  height: 100vh;
-
-  margin: 0 !important;
-  padding: 0;
-
-  background-image: url("./grape.jpg");
-  background-size: cover;
+@font-face {
+  font-family: 'BasalteFond';
+  src: url(./Basalte-Fond.ttf) format('truetype'), url(./Basalte-Fond.otf) format('opentype');
 }
 
-.text-section {
-  margin: 0 !important;
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  background-color: #A6B376;
+body, button, input, optgroup, select, textarea {
+  font-family: BasalteFond;
+  font-weight: 100;
+}
+
+.title {
+  font-weight: 300;
+}
+
+.image {
+  margin-bottom: 20px;
 }
